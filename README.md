@@ -20,7 +20,7 @@ Samsung Firmware Flashing Tool for macOS — Heimdall(Odin) + ADB 올인원 앱
 
 [Releases](../../releases)에서 맥에 맞는 zip을 받으세요 (`arm64` = Apple Silicon, `x86_64` = Intel). 압축을 풀고 앱을 우클릭 → 열기로 처음 실행합니다.
 
-새 버전 배포: `git tag v1.0.1 && git push origin v1.0.1` 하면 GitHub Actions가 두 아키텍처용 앱을 빌드해 Release에 올립니다.
+새 버전 배포: `build.sh`의 `VERSION`을 올려 `main`에 푸시하면 GitHub Actions가 두 아키텍처용 앱을 빌드해 `v<VERSION>` Release에 올립니다.
 
 ## 직접 빌드
 

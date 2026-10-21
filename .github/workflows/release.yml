@@ -69,8 +69,8 @@ jobs:
           body: |
             macOS용 Heimdall Toolbox — Heimdall(Odin 플래시) + ADB(APK 설치·사이드로드·파일 전송) 올인원 앱
 
-            - `HeimdallToolbox-macOS-arm64.zip`: Apple Silicon (M1 이상)
-            - `HeimdallToolbox-macOS-x86_64.zip`: Intel 맥
+            - `HeimdallToolbox-arm64.zip`: Apple Silicon (M1 이상)
+            - `HeimdallToolbox-x86_64.zip`: Intel 맥
 
             압축을 풀고 앱을 **우클릭 → 열기**로 처음 실행하세요. 막히면 터미널에서
             `xattr -cr "/Applications/Heimdall Toolbox.app"`
